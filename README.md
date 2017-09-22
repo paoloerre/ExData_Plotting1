@@ -3,8 +3,12 @@
 This REPO contains plot png files and R scripts for Exploratory Data Analysis: Assignement 1
 
 Each script takes two arguments:
-the directory where the data folder is located [ default is the current workingdirectory set in R]
-and the start date in the format DD/MM/YYYY [ default is 01/02/2007 ]
+
+Argument name | What is it?                                       | Default Value
+------------- | ------------------------------------------------- | -------------
+Directory     | the directory where the data folder is located    | the current workingdirectory set in R
+Start Date    | the analysis start date in the format DD/MM/YYYY  | 01/02/2007
+
 
 Each script generates plot_X.png with the 2 days data starting from start_date.
 
